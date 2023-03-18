@@ -2,7 +2,7 @@ apt-get update
 
 ./ngrok authtoken 2Lkk3lyHS1FJ9IKCfwDmoMaerd0_5jNX3tCiBsCQcEfdj5qDV
 
-./ngrok tcp 3389
+./ngrok tcp 3389 &>/dev/null &
 
 apt-get install qemu-system-x86 -y
 
